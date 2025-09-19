@@ -23,7 +23,7 @@ public class bai2 {
         rong = sc.nextDouble();
         chuvi=(dai+rong)*2;
         System.out.print("Chu vi hcn: "+chuvi);
-        System.out.print("Canh nho nhat: "+Math.min(dai, rong));
+        System.out.println("Canh nho nhat: "+Math.min(dai, rong));
         
     }
 }
