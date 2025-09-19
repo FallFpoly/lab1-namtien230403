@@ -16,9 +16,9 @@ public class bai1 {
         // sinh viên code ở đây
          Scanner sc=new Scanner(System.in);
         
-        System.out.print("Nhap ho ten: ");
+        System.out.println("Nhap ho ten: ");
         String hoten = sc.nextLine();
-        System.out.print("Nhap diem TB: ");
+        System.out.println("Nhap diem TB: ");
         double diemTb = sc.nextDouble();
     }
 }
