@@ -4,6 +4,8 @@
 
 package com.mycompany.lab1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ICT
@@ -12,5 +14,11 @@ public class bai3 {
 
     public static void main(String[] args) {
           // sinh viên code ở đây
+          Scanner sc=new Scanner(System.in);
+        double canh,thetich;
+        System.out.print("Nhap canh: ");
+        canh = sc.nextDouble();
+        thetich=canh*canh*canh;
+        System.out.print("The tich khoi lap phuong: "+thetich);
     }
 }
